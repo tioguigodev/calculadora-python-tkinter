@@ -14,5 +14,8 @@ Criar uma calculadora gráfica ultilizando Python e Tkinter.
 ## Diário de desenvolvimento
 
 ### Dia 1
-- Criação de repositório
-- Planejamento de estrutura do projeto.
+- Criação do repositório no GitHub
+- Criação do arquivo `calculadora.py`
+- Importação da biblioteca Tkinter
+- Criação da janela principal com `Tk()`
+- Primeira execução da aplicação
