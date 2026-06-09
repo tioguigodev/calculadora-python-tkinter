@@ -18,4 +18,5 @@ Criar uma calculadora gráfica ultilizando Python e Tkinter.
 - Criação do arquivo `calculadora.py`
 - Importação da biblioteca Tkinter
 - Criação da janela principal com `Tk()`
+- Definição do título da aplicação
 - Primeira execução da aplicação
