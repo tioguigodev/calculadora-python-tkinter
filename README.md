@@ -6,7 +6,7 @@ Criar uma calculadora gráfica ultilizando Python e Tkinter.
 
 ## Status
 - [x] Repositório criado
-- [ ] Estrutura inicial
+- [x] Estrutura inicial
 - [ ] Interface gráfica
 - [ ] Operações matemáticas
 - [ ] Finalização
@@ -20,3 +20,10 @@ Criar uma calculadora gráfica ultilizando Python e Tkinter.
 - Criação da janela principal com `Tk()`
 - Definição do título da aplicação
 - Primeira execução da aplicação
+
+### Dia 2
+- Escolha de cores
+- Determinar tamanho da aplicação
+- Permanecer tamanho da aplicação
+- Determinar tamanho de tela
+- Determinar cor da tela
