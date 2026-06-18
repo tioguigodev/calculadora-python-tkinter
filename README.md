@@ -1,15 +1,18 @@
 # Calculadora Python Tkinter
 projeto em desenvolvimento.
 
-## Objtivo
-Criar uma calculadora gráfica ultilizando Python e Tkinter.
+## Objetivo
+Criar uma calculadora gráfica utilizando Python e Tkinter.
 
-## Status
-- [x] Repositório criado
+## Status do Projeto
+
 - [x] Estrutura inicial
-- [ ] Interface gráfica
+- [x] Configuração da janela
+- [x] Definição das cores
+- [ ] Botões numéricos
 - [ ] Operações matemáticas
-- [ ] Finalização
+- [ ] Tratamento de erros
+- [ ] Interface final
 
 ## Diário de desenvolvimento
 
@@ -23,7 +26,7 @@ Criar uma calculadora gráfica ultilizando Python e Tkinter.
 
 ### Dia 2
 - Escolha de cores
-- Determinar tamanho da aplicação
-- Permanecer tamanho da aplicação
+- Definir o tamanho da janela
+- Bloquear redimensionamento tamanho da janela
 - Determinar tamanho de tela
 - Determinar cor da tela
