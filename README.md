@@ -10,8 +10,8 @@ Criar uma calculadora gráfica utilizando Python e Tkinter.
 - [x] Configuração da janela
 - [x] Definição das cores
 - [x] Botões iniciais
-- [ ] Botões finais
-- [ ] Operações matemáticas
+- [x] Botões finais
+- [x] Operações matemáticas
 - [ ] Tratamento de erros
 - [ ] Interface final
 
@@ -39,3 +39,17 @@ Criar uma calculadora gráfica utilizando Python e Tkinter.
 - Criação dos primeiros botões da calculadora
 - Aprindizado de frame(), grid() e place()
 - Início de montagem da interface gráfica
+
+- ## Dia 4
+- Criação da váriavel tela = StringVar() para controlar o conteúdo exibido no visor.
+- Criação da váriavel todas_entradas = '' para armazenar a expressão digitada pelo usuário
+- Criação do visor digital ultilizando Label
+- Associação visual do visor (cores, fonte, aliunhamento à direita e posicionamento)
+- Início da implementação da função de entrada der dados com lamda
+- Associação dos botões numéricos à função entrada()
+- Inclusão de operações especiais:
+   - Parénteses ( e )
+   - Valor de pi (math.pi)
+   - Raiz quadrada sqrt()
+   - Potência ao quadrado **2
+   - Porcentagem /100
