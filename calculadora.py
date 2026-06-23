@@ -1,4 +1,8 @@
+# Importar tkinter
 from tkinter import*
+
+# Importar math
+import math
 
 # cores
 cor1 = '#3b3b3b'
@@ -16,11 +20,21 @@ janela.geometry('350x450')
 janela.resizable(False, False)
 janela.config(bg=cor1)
 
+# Tela digital
 frame_tela = Frame(janela, width=350, height=150, bg=cor3)
 frame_tela.grid(row=0, column=0)
 
+# Corpo dos botões
 frame_corpo = Frame(janela, width=350, height=450)
 frame_corpo.grid(row=1, column=0)
+
+# Criar variavel
+tela = StringVar()
+todas_entradas = ''
+
+# Armazenar na variavel criada
+app_label = Label(frame_tela, textvariable=tela, width=24, height=2, padx=7, bg=cor3, fg=cor5, relief=FLAT, anchor='e', justify=RIGHT, font=('Ivy 18 '))
+app_label.place(x=0, y=80)
 
 # Botõe
 b1 = Button(frame_corpo, text='C', width=5, height=2, bg=cor4, fg=cor6, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
@@ -58,5 +72,42 @@ b11.place(x=0, y=120)
 
 b12 = Button(frame_corpo, command = lambda: entrada('5'), text='5', width=5, height=2, bg=cor7, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b12.place(x=70, y=120)
+
+b13 = Button(frame_corpo, command = lambda: entrada('6'), text='6', width=5, height=2, bg=cor7, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b13.place(x=140, y=120 )
+
+b14 = Button(frame_corpo, command = lambda: entrada('**2'), text='x²', width=5, height=2, bg=cor4, fg=cor6, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b14.place(x=210, y=120)
+
+b15 = Button(frame_corpo, command = lambda: entrada('+'), text='+', width=5, height=2, bg=cor4,fg=cor6, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b15.place(x=280, y=120)
+
+b16 = Button(frame_corpo, command = lambda: entrada('1'), text='1', width=5, height=2, bg=cor7, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b16.place(x=0, y=180)
+
+b17 = Button(frame_corpo, command = lambda: entrada('2'), text='2', width=5, height=2, bg=cor7, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b17.place(x=70, y=180)
+
+b18 = Button(frame_corpo, command = lambda: entrada('3'), text='3', width=5, height=2, bg=cor7, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b18.place(x=140, y=180)
+
+b19 = Button(frame_corpo, command = lambda: entrada('/100'), text='%', width=5, height=2, bg=cor4,fg=cor6, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b19.place(x=0, y=235)
+
+b20 = Button(frame_corpo, command = lambda: entrada('0'), text='0', width=5, height=2, bg=cor7,fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b20.place(x=70, y=235)
+
+b21 = Button(frame_corpo, command = lambda: entrada('.'), text=',', width=5, height=2, bg=cor7,fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b21.place(x=140, y=235)
+
+b22 = Button(frame_corpo, command = lambda: entrada('-'), text='-', width=5, height=2, bg=cor4, fg=cor6, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b22.place(x=210, y=180)
+
+b23 = Button(frame_corpo, command = lambda: entrada('*'), text='x', width=5, height=2, bg=cor4,fg=cor6, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b23.place(x=210, y=235)
+
+b24 = Button(frame_corpo, text='=', width=5, height=5, bg=cor5, fg=cor6, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b24.place(x=280, y=180)
+
 
 janela.mainloop()
