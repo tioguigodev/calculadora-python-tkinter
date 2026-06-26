@@ -40,7 +40,7 @@ app_label.place(x=0, y=80)
 def entrada(event):
     global todas_entradas
     todas_entradas = todas_entradas + str(event)
-    tela.set(todas entradas)
+    tela.set(todas_entradas)
 
 # Botõe
 b1 = Button(frame_corpo, text='C', width=5, height=2, bg=cor4, fg=cor6, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
