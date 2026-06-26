@@ -32,7 +32,7 @@ Criar uma calculadora gráfica utilizando Python e Tkinter.
 - Determinar tamanho de tela
 - Determinar cor da tela
 
-- ## Dia 3
+### Dia 3
 - Criação dos frames da aplicação (frame_tela e frame_corpo)
 - Separação da tela em visor e área de botões
 - Posicionamento dor frames com grid()
@@ -40,7 +40,7 @@ Criar uma calculadora gráfica utilizando Python e Tkinter.
 - Aprindizado de frame(), grid() e place()
 - Início de montagem da interface gráfica
 
-- ## Dia 4
+### Dia 4
 - Criação da váriavel tela = StringVar() para controlar o conteúdo exibido no visor.
 - Criação da váriavel todas_entradas = '' para armazenar a expressão digitada pelo usuário
 - Criação do visor digital ultilizando Label
@@ -53,3 +53,9 @@ Criar uma calculadora gráfica utilizando Python e Tkinter.
    - Raiz quadrada sqrt()
    - Potência ao quadrado **2
    - Porcentagem /100
+
+### Dia 5
+- Implementação da função entrada() para capturar clics nos botões e escrever na tela
+- Exibição dos botões bo visor
+- Teste das entradas com números e operações
+- Ainda sem mostrar resultado
