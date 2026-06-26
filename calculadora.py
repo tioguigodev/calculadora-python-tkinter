@@ -36,6 +36,12 @@ todas_entradas = ''
 app_label = Label(frame_tela, textvariable=tela, width=24, height=2, padx=7, bg=cor3, fg=cor5, relief=FLAT, anchor='e', justify=RIGHT, font=('Ivy 18 '))
 app_label.place(x=0, y=80)
 
+# Escrever na tela
+def entrada(event):
+    global todas_entradas
+    todas_entradas = todas_entradas + str(event)
+    tela.set(todas entradas)
+
 # Botõe
 b1 = Button(frame_corpo, text='C', width=5, height=2, bg=cor4, fg=cor6, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b1.place(x=0, y=0)
